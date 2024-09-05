@@ -3,16 +3,16 @@ ___
   
 ### Who should attempt data recovery, and why?
 ___  
-##### An IT technician or experienced consumer of computer hardware will start to consider manually recovering data when a hard drive starts logging erros, failing diagnostic tests, and/or making suspicious clicking noises. In ideal cases, there will already be a backup solution in place, and inspecting a damaged drive for recoverable data is not necessary. If this is not the case, this *may* be a reasonable solution.
+##### An IT technician or experienced consumer starts to consider manually recovering data when a hard drive logs errors, fails diagnostic tests, and/or makes suspicious clicking noises. In ideal cases, there is already a backup solution in place, and inspecting a damaged drive for recoverable data is not necessary. Otherwise, manual data recovery *may* be a reasonable solution.
   
 ### **Important Warnings**:
- - ##### **As soon as you have determined there is a damaged drive, turn off the computer and unplug it from power.** 
+ - ##### **As soon as you have determined a drive is damaged, turn off the computer and unplug it from power.** 
     ##### At this point, you haven't yet made a plan, and it's important to prevent any unneccessary mechanical damage and/or data corruption from read/write operations, especially if the disk in question is the boot drive (the one storing the operating system).
  - ##### **Check the warranty before attempting anything on your own.** 
     ##### If the machine is under warranty, call the manufacturer first and see what help they can offer for failed drives. Data recovery is hard - a specialist has a better chance at recovering more data and doing less damage to the drive in the process.
 - ##### **Price out other options, especially if there are I/O (Input/Output) errors** 
-    ##### Continuing to run a damaged hard drive will eventually result in further data corruption. I/O errors mean the drive is already *very* damaged. Inspecting and/or copying data from a failing drive without first repairing any mechanical damage at a specialized facility has inherent risks. Your budget will need to be weighed against the importance of the data you're working with. Hiring an expert is effective, but expensive.
-##### That being said, if hard drive is still readable, or mostly readable, copying as much as possible onto a more stable medium (a new hard drive or USB drive with sufficient storage - ideally about twice the size of the stored data on the old disk) is often very worth doing. Depending on the extent of data loss, it may be repairable with free tools, or it may be worthwhile to cut your losses before spending money on professional data recovery.
+    ##### Continuing to run a damaged hard drive will eventually result in further data corruption. I/O errors mean the drive is already *very* damaged. There are inherent risks to inspecting and/or copying data from a failing drive without first repairing any mechanical damage at a specialized facility. You will need to weigh your budget against the importance of the data you're working with. Hiring an expert is effective, but expensive.
+##### That being said, if hard drive is still readable, or mostly readable, copying as much data as possible onto a more stable medium (a new hard drive or USB drive with sufficient storage - ideally about twice the size of the stored data on the old disk) is often very worth doing. Depending on the extent of data loss, it may be repairable with free tools, or it may be worthwhile to cut your losses before spending money on professional data recovery.
 
 ### Required Knowledge and Tools
 ----
@@ -25,7 +25,7 @@ ___
 ### What is GParted, and what is GParted Live?
 ---
 #### GParted, or the GNOME Partition Editor, 
-##### is a free and open source graphical application for managing disk partitions and filesystems. When inspecting the data on a hard drive, the graphical interface gives a good overview of which drives are present on the computer, how many partitions there are, and how much space is being used. It's also helpful for getting oriented to where the drives are physically mounted to the data ports on the motherboard, for the purpose of mounting and inspecting the filesystme, as explained later.    
+##### is a free and open source graphical application for managing disk partitions and filesystems. When inspecting the data on a hard drive, the graphical interface gives a good overview of which drives are present on the computer, how many partitions there are, and how much space is being used. It can also help orient you to where the drives are physically mounted to the data ports on the motherboard, for the purpose of mounting and inspecting the filesystem, as explained later.    
 ####
 ![GParted Main Window](gparted-main-window.png)
 
@@ -38,7 +38,7 @@ ___
 ___
 ##### Loading a lightweight operating system onto a USB drive and using that to  inspect a failing disk has a number of benefits:
 
-- ##### If the failing disk happens to be the boot drive, the original operating system may no longer be accessible. Booting from a USB offers an alternative to opening the computer and removing the failing drive in order to attach it to a working machine.
+- ##### If the failing disk is the boot drive, the original operating system may no longer be accessible. Booting from a USB offers an alternative to opening the computer and removing the failing drive in order to attach it to a working machine.
 - ##### A bootable USB drive can be loaded with helpful tools that may not otherwise exist on the original operating system.
 
 ### How to Create a GParted Live Bootable USB
