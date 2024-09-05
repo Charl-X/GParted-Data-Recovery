@@ -27,7 +27,7 @@ ___
 #### GParted, or the GNOME Partition Editor, 
 ##### is a free and open source graphical application for managing disk partitions and filesystems. When inspecting the data on a hard drive, the graphical interface gives a good overview of which drives are present on the computer, how many partitions there are, and how much space is being used. It's also helpful for getting oriented to where the drives are physically mounted to the data ports on the motherboard, for the purpose of mounting and inspecting the filesystme, as explained later.    
 ####
-![GParted Main Window](https://gparted.org/screens/gparted-main-window.png)
+![GParted Main Window](gparted-main-window.png)
 
 ##### Further documentation, and instructions for dowloading GParted, can be found at: [GParted.org](https://gparted.org/)    
 ####
