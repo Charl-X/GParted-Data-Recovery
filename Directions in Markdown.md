@@ -77,3 +77,5 @@ ___
 3. ##### **Make sure you have the correct names of the drives you want to work with**. Then, mount them to the directories you just created. For example:
    > ##### sudo mount /dev/sda /mnt/old
    > ##### sudo mount /dev/sdb /mnt/new
+4. ##### Use dd, a pre-installed Linux command line utility, to make a complete disk image of the old drive and copy it onto the new drive.
+  > ##### dd if=/mnt/old of=/mnt/new status=progress
