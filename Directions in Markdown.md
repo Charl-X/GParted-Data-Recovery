@@ -66,3 +66,14 @@ ___
 ___
 
 ##### Rather than mounting and inspecting the files on a damaged hard drive directly, it's a better idea to copy everything onto a stable drive and inspect and manipulate it there.
+
+##### First, if you haven't already, plug in the extra drive that you plan to use to store your recovered data. Tell GParted to refresh the list of available drives, and you should see a new drive name on the dropdown list.
+
+#### Next, create a place to mount both the damaged drive and the new storage device to your Linux operating system:
+ 1. ##### Click on the desktop icon to open a terminal emulator window
+ 2. ##### Create two new directories under /mnt/ (the mount directory), with any name you want, but ideally one that helps you tell them apart. You'll need to use sudo for this, since only root has access to the /mnt directory:
+    > ##### sudo mkdir /mnt/old
+    > ##### sudo mkdir /mnt/new
+3. ##### **Make sure you have the correct names of the drives you want to work with**. Then, mount them to the directories you just created. For example:
+   > ##### sudo mount /dev/sda /mnt/old
+   > ##### sudo mount /dev/sdb /mnt/new
