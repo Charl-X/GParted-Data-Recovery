@@ -38,7 +38,7 @@ ___
 ___
 ##### Loading a lightweight operating system onto a USB drive and using that to  inspect a failing disk has a number of benefits:
 
-- ##### If the failing disk happens to be the boot drive, the original operating system may no longer be accessible. Booting from a USB offers an alternative to opening the computer and removing the fialing drive in order to attach it to a working machine.
+- ##### If the failing disk happens to be the boot drive, the original operating system may no longer be accessible. Booting from a USB offers an alternative to opening the computer and removing the failing drive in order to attach it to a working machine.
 - ##### A bootable USB drive can be loaded with helpful tools that may not otherwise exist on the original operating system.
 
 ### How to Create a GParted Live Bootable USB
@@ -60,4 +60,9 @@ ___
 ### How to Inspect Drive Partitions with Gparted
 ___
 
+##### Gparted Live will automatically open the GParted graphical interface when it loads the user environment. In the upper right corner of this window, there will be a dropdown list of drives, usually labeled /dev/sda, /dev/sbd, /dev/sdc, etc. You can click through this list to see the partitions that are present on each disk in the main window, including information on what type of filesystem it contains, and how much space is being used. If a filesystem is unreadable, you will see an error message here.
 
+### How to Copy Data off a Damaged Drive
+___
+
+##### Rather than mounting and inspecting the files on a damaged hard drive directly, it's a better idea to copy everything onto a stable drive and inspect and manipulate it there.
