@@ -45,4 +45,19 @@ ___
 ----
 1. ##### Download the GParted Live .iso file from [gparted.org](https://gparted.org/).
 2. ##### On Windows:
-    ##### Use a tool like Rufus
+    ##### Use a tool like [Rufus](https://rufus.ie/en/) to copy the .iso file onto a USB drive and make it bootable. Alternatively, if you have a larger USB drive, use a tool like [Ventoy](https://www.ventoy.net/en/index.html) or [Yumi] (https://yumiusb.com/) to create a bootable drive that can store and run multiple lightweight operating systems.
+
+### How to Boot from GParted Live USB
+___
+
+1. ##### Plug the bootable USB drive into an open USB slot on the computer containing the damaged drive.
+2. ##### Plug the computer back into power and turn it on.
+3. ##### While the computer is booting, spam-click the special function key to bring up the boot menu. This is usually F12, but on some computer models, it can be F2 or F10 or another key. Consult your user manual if unsure.
+4. #### From the boot menu, select the removable USB drive.
+
+##### When GParted Live first boots, it will ask a bunch of questions about settings that can be changed. For our purposes, we can hit Enter to accept the defaults.
+
+### How to Inspect Drive Partitions with Gparted
+___
+
+
